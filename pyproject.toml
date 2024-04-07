@@ -1,0 +1,37 @@
+[virtualenvs]
+in-project = true
+
+[tool.poetry]
+name = "marketmaker"
+version = "0.1.0"
+description = "These depenedency will construct a high level AI price indicator for day trading"
+authors = ["Lewis T Smith III"]
+readme = "README.md"
+
+# pandas/tensorflow; Install via env and not poetry or use other package manager!!
+[tool.poetry.dependencies]
+python = "^3.12" 
+cython = "^3.0.2"
+torch = "^2.0.1"
+scikit-learn = "^1.3.0"
+plotly = "^5.16.1"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+asyncio = "^3.4.3"
+ibapi = "^9.81.1.post1"
+pip = "^23.2.1"
+install = "^1.3.5"
+alpaca-py = "^0.10.0"
+alpaca-trade-api = "^3.0.2"
+termcolor = "^2.3.0"
+openpyxl = "^3.1.2"
+oandapyv20 = "^0.7.2"
+tensorflow = "^2.16.1"
+matplotlib = "^3.8.3"
+yfinance = "^0.2.37"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
